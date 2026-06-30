@@ -222,14 +222,6 @@ This behavior is available by default as of 1.1, with no experiment required.
 </Aside>
 </Since>
 
-<Before version="1.0.5">
-
-In a future release, the catalog UI will read tag information from the front-matter of component `README.md` files.
-
-</Before>
-
-<Since version="1.0.5">
-
 Catalog authors can attach tags to a component by adding a `tags` key to the component's `README.md` front-matter. Tags appear as colored pills next to the component in the list view, and as a row above the rendered README in the detail view.
 
 Either inline-array or dash-list YAML form is accepted:
@@ -253,8 +245,6 @@ tags:
 ```
 
 Tag values that name a component type also promote the component into that type's tab. For example, a component classified as a `template` whose tags include `module` appears under both the `Templates` tab (by its native kind) and the `Modules` tab (by tag), without changing how it's scaffolded.
-
-</Since>
 
 ## Keybindings
 
